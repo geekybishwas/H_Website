@@ -1,0 +1,126 @@
+    /* Nav Bar */
+    
+    #navbar {
+        padding-bottom: 10px;
+    }
+    
+    #navbar ul li .current {
+        border-bottom: 1px solid #000;
+    }
+    
+    #navbar ul li .bottom-line {
+        border-top: 1px solid #000;
+    }
+    
+    #navbar h1 {
+        float: none;
+        text-align: center;
+    }
+    
+    #navbar ul,
+    #navbar ul li {
+        float: none;
+        text-align: center;
+    }
+    
+    #navbar ul li a {
+        /* border-bottom: 1px solid #000; */
+        padding: 5px 0px;
+        display: inline-block;
+        width: 100%;
+    }
+    /* SHOWCASE */
+    
+    #showcase {
+        height: 100%;
+    }
+    
+    #showcase .showcase-content {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    
+    #showcase .showcase-content h1 {
+        font-size: 60px;
+        line-height: 5rem;
+    }
+    
+    #showcase .showcase-content p {
+        line-height: 2rem;
+    }
+    /* HOME INFO */
+    
+    #home-info {
+        height: 80vh;
+    }
+    
+    #home-info .info-content {
+        float: none;
+        width: 100%;
+        padding-top: 60px;
+        height: 100vh;
+        /* margin-top: 30px; */
+        /* margin-bottom: 20px; */
+    }
+    
+    #home-info .info-img {
+        float: none;
+        width: 100%;
+        min-height: 50%;
+        background: url('../img/photo-1.jpg') no-repeat center center/cover;
+    }
+    
+    #home-info .info-content p {
+        line-height: 2rem;
+    }
+    /* FEATURES SECTION */
+    
+    .box {
+        float: none;
+        width: 100%;
+    }
+    
+    .box p {
+        line-height: 2rem;
+    }
+    /* ABOUT INFO */
+    
+    #about-info .container {
+        height: 100%;
+    }
+    
+    #about-info .info-right,
+    #about-info .info-left {
+        float: none;
+        width: 100%;
+    }
+    
+    #about-info .info-left {
+        text-align: center;
+        line-height: 1.7rem;
+    }
+    
+    #about-info .info-right {
+        padding: 0.3rem 0rem;
+        text-align: center;
+    }
+    /* TESTIMONAIL */
+    
+    #testimonials {
+        height: 100%;
+        background: url('../img/test-bg.jpg') no-repeat center center/cover;
+        padding-top: 10px;
+    }
+    
+    #testimonials .testimonial {
+        height: 100%;
+    }
+    
+    #testimonials .testimonial p {
+        text-align: justify;
+    }
+    /* CONTACT INF */
+    
+    #contact-info .container .box {
+        border-bottom: 1px solid #f4f4f4;
+    }
